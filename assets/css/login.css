@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.background {
+  background: url('../img/fondo.svg')
+    no-repeat center center/cover;
+  position: absolute;
+  top: -20px;
+  bottom: -20px;
+  left: -20px;
+  right: -20px;
+  z-index: -1;
+  filter: blur(20px);
+}
+
+.bgVerde{
+  background-color: #b6bb18ff;
+}
+
+.bgCafe{
+  background-color: #773611ff;
+}
+
